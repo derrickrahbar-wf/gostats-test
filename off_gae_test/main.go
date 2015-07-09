@@ -1,7 +1,7 @@
 package main
 
 import (
-	gostats "github.com/derrickrahbar-wf/gostats/off_gae"
+	gostats "github.com/Workiva/gostats/off_gae"
 )
 
 func main() {

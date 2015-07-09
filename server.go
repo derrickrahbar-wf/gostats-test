@@ -4,7 +4,7 @@ import (
 	"net/http"
 
 	"appengine"
-	"github.com/derrickrahbar-wf/gostats/gostats"
+	"github.com/Workiva/gostats/gostats"
 )
 
 func init() {
