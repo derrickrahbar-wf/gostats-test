@@ -12,8 +12,8 @@ func init() {
 }
 
 func handler(w http.ResponseWriter, r *http.Request) {
-	client := gostats.NewStatsClient(r)
-	client_2 := gostats.NewStatsClient(r)
+	client := gostats.NewStatsClient(r, nil)
+	client_2 := gostats.NewStatsClient(r, nil)
 
 	client.Incr("test.c1.incr", 2)
 	client_2.Incr("test.c2.incr", 3)

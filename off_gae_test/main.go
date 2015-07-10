@@ -5,8 +5,8 @@ import (
 )
 
 func main() {
-	client := gostats.NewStatsClient()
-	client_2 := gostats.NewStatsClient()
+	client := gostats.NewStatsClient(nil)
+	client_2 := gostats.NewStatsClient(nil)
 
 	client.Incr("test.c1.incr", 2)
 	client_2.Incr("test.c2.incr", 3)
